@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1bcac9ac64bf192972f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mir_nav_interface__py",
+					"jsonFile" : "directory-mir_nav_interface__py-Release-cabbe2ddf3d6c2146265.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface/mir_nav_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mir_nav_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mir_nav_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mir_nav_interface_egg-Release-eb736ec3a6790a9dd0ad.json",
+					"name" : "ament_cmake_python_build_mir_nav_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mir_nav_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mir_nav_interface-Release-98edfb2e45ed81ee532c.json",
+					"name" : "ament_cmake_python_copy_mir_nav_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface-Release-5d527399f28415ff8c70.json",
+					"name" : "mir_nav_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__cpp-Release-998f6d76422283d24efc.json",
+					"name" : "mir_nav_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mir_nav_interface__py::@8deeabe4b559badc82b8",
+					"jsonFile" : "target-mir_nav_interface__py-Release-14315d907c7caa297294.json",
+					"name" : "mir_nav_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_generator_c-Release-ba25173a559badee1fa5.json",
+					"name" : "mir_nav_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_generator_py-Release-137a9ca985a42a9c5663.json",
+					"name" : "mir_nav_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_c-Release-8174292925124c4dd5dd.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_c__pyext-Release-19e3b93d149aeabc4ce2.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_cpp-Release-d30b0ca6d6359ed76e72.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_fastrtps_c-Release-136fcf17709b8675a954.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_fastrtps_c__pyext-Release-b25c4586ae6bb45b75d0.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_fastrtps_cpp-Release-fa1f3fc87c9e4af8ab06.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_introspection_c-Release-69835a774419e5470b8d.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_introspection_c__pyext-Release-0d52d97374ba01bac731.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface__rosidl_typesupport_introspection_cpp-Release-1dc461fdddfa8779d608.json",
+					"name" : "mir_nav_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_nav_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_nav_interface_uninstall-Release-141bd62f38d0575c2a6b.json",
+					"name" : "mir_nav_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-4a9ce860d32a4ac6a5ae.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface",
+		"source" : "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/src/mir_nav_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_nav_interface/msg/LaserCloudList.msg
+// generated code does not contain a copyright notice
+
+#include "mir_nav_interface/msg/LaserCloud.idl"
+
+module mir_nav_interface {
+  module msg {
+    struct LaserCloudList {
+      sequence<mir_nav_interface::msg::LaserCloud> clouds;
+    };
+  };
+};

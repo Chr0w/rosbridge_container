@@ -1,0 +1,9 @@
+setup.py
+mir_nav_interface/__init__.py
+mir_nav_interface.egg-info/PKG-INFO
+mir_nav_interface.egg-info/SOURCES.txt
+mir_nav_interface.egg-info/dependency_links.txt
+mir_nav_interface.egg-info/top_level.txt
+mir_nav_interface/msg/__init__.py
+mir_nav_interface/msg/_laser_cloud.py
+mir_nav_interface/msg/_laser_cloud_list.py

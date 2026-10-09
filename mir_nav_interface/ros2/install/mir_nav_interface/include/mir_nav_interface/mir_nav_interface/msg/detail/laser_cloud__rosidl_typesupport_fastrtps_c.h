@@ -1,0 +1,37 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from mir_nav_interface:msg/LaserCloud.idl
+// generated code does not contain a copyright notice
+#ifndef MIR_NAV_INTERFACE__MSG__DETAIL__LASER_CLOUD__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define MIR_NAV_INTERFACE__MSG__DETAIL__LASER_CLOUD__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "mir_nav_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mir_nav_interface
+size_t get_serialized_size_mir_nav_interface__msg__LaserCloud(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mir_nav_interface
+size_t max_serialized_size_mir_nav_interface__msg__LaserCloud(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mir_nav_interface
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, mir_nav_interface, msg, LaserCloud)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // MIR_NAV_INTERFACE__MSG__DETAIL__LASER_CLOUD__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

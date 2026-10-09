@@ -1,1 +1,1 @@
-/custom_action/install/bridge_mapping:/control_msgs_ros2/install/control_msgs:/opt/ros/humble
+/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface:/custom_action/install/bridge_mapping:/control_msgs_ros2/install/control_msgs:/opt/ros/humble

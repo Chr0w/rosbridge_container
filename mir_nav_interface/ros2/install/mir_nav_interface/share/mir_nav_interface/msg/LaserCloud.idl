@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_nav_interface/msg/LaserCloud.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Transform.idl"
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module mir_nav_interface {
+  module msg {
+    module LaserCloud_Constants {
+      const uint8 BACK_SCANNER = 1;
+      const uint8 FRONT_SCANNER = 2;
+      const uint8 RIGHT_SCANNER = 3;
+    };
+    @verbatim (language="comment", text=
+      "scanner")
+    struct LaserCloud {
+      sensor_msgs::msg::PointCloud2 cloud_data;
+
+      geometry_msgs::msg::Pose origin;
+
+      geometry_msgs::msg::Transform odom_to_base;
+
+      uint8 scanner;
+    };
+  };
+};

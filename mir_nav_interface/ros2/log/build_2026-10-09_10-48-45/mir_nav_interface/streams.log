@@ -1,0 +1,257 @@
+[0.015s] Invoking command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/src/mir_nav_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.165s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.373s] -- Detecting CXX compiler ABI info - done
+[0.382s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.382s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.388s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.576s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.693s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.741s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.750s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.762s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.842s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.854s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.244s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.082s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.084s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.116s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.116s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.116s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.116s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.141s] -- Found PythonExtra: .so  
+[2.239s] -- Configuring done
+[2.310s] -- Generating done
+[2.331s] -- Build files have been written to: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface
+[2.342s] Invoked command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/src/mir_nav_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface
+[2.344s] Invoking command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface -- -j16 -l16
+[2.398s] [  2%] Generating C code for ROS interfaces
+[2.413s] [  5%] Generating C++ code for ROS interfaces
+[2.425s] [  5%] Built target ament_cmake_python_copy_mir_nav_interface
+[2.753s] running egg_info
+[2.753s] creating mir_nav_interface.egg-info
+[2.754s] writing mir_nav_interface.egg-info/PKG-INFO
+[2.754s] writing dependency_links to mir_nav_interface.egg-info/dependency_links.txt
+[2.757s] writing top-level names to mir_nav_interface.egg-info/top_level.txt
+[2.757s] writing manifest file 'mir_nav_interface.egg-info/SOURCES.txt'
+[2.760s] reading manifest file 'mir_nav_interface.egg-info/SOURCES.txt'
+[2.762s] writing manifest file 'mir_nav_interface.egg-info/SOURCES.txt'
+[2.797s] [  7%] Building C object CMakeFiles/mir_nav_interface__rosidl_generator_c.dir/rosidl_generator_c/mir_nav_interface/msg/detail/laser_cloud__functions.c.o
+[2.798s] [ 10%] Building C object CMakeFiles/mir_nav_interface__rosidl_generator_c.dir/rosidl_generator_c/mir_nav_interface/msg/detail/laser_cloud_list__functions.c.o
+[2.803s] [ 10%] Built target mir_nav_interface__cpp
+[2.806s] [ 10%] Built target ament_cmake_python_build_mir_nav_interface_egg
+[2.820s] [ 17%] Generating C++ type support for eProsima Fast-RTPS
+[2.820s] [ 17%] Generating C++ type support dispatch for ROS interfaces
+[2.820s] [ 17%] Generating C++ introspection for ROS interfaces
+[2.926s] [ 20%] Linking C shared library libmir_nav_interface__rosidl_generator_c.so
+[2.981s] [ 20%] Built target mir_nav_interface__rosidl_generator_c
+[2.997s] [ 23%] Generating C type support for eProsima Fast-RTPS
+[2.997s] [ 25%] Generating C type support dispatch for ROS interfaces
+[2.997s] [ 28%] Generating C introspection for ROS interfaces
+[3.177s] [ 30%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mir_nav_interface/msg/laser_cloud__type_support.cpp.o
+[3.179s] [ 33%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mir_nav_interface/msg/laser_cloud_list__type_support.cpp.o
+[3.202s] [ 35%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mir_nav_interface/msg/detail/laser_cloud__type_support.cpp.o
+[3.203s] [ 38%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mir_nav_interface/msg/detail/laser_cloud_list__type_support.cpp.o
+[3.234s] [ 41%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mir_nav_interface/msg/detail/dds_fastrtps/laser_cloud__type_support.cpp.o
+[3.237s] [ 43%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mir_nav_interface/msg/detail/dds_fastrtps/laser_cloud_list__type_support.cpp.o
+[3.397s] [ 46%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/mir_nav_interface/msg/laser_cloud__type_support.cpp.o
+[3.400s] [ 48%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/mir_nav_interface/msg/laser_cloud_list__type_support.cpp.o
+[3.483s] [ 51%] Linking CXX shared library libmir_nav_interface__rosidl_typesupport_c.so
+[3.488s] [ 53%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mir_nav_interface/msg/detail/laser_cloud_list__type_support_c.cpp.o
+[3.488s] [ 56%] Building CXX object CMakeFiles/mir_nav_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mir_nav_interface/msg/detail/laser_cloud__type_support_c.cpp.o
+[3.540s] [ 58%] Building C object CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud_list__type_support.c.o
+[3.543s] [ 61%] Building C object CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud__type_support.c.o
+[3.582s] [ 61%] Built target mir_nav_interface__rosidl_typesupport_c
+[3.657s] [ 64%] Linking C shared library libmir_nav_interface__rosidl_typesupport_introspection_c.so
+[3.719s] [ 66%] Linking CXX shared library libmir_nav_interface__rosidl_typesupport_cpp.so
+[3.719s] [ 66%] Built target mir_nav_interface__rosidl_typesupport_introspection_c
+[3.780s] [ 66%] Built target mir_nav_interface__rosidl_typesupport_cpp
+[4.035s] [ 69%] Linking CXX shared library libmir_nav_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.134s] [ 71%] Linking CXX shared library libmir_nav_interface__rosidl_typesupport_fastrtps_c.so
+[4.134s] [ 71%] Built target mir_nav_interface__rosidl_typesupport_fastrtps_cpp
+[4.205s] [ 74%] Linking CXX shared library libmir_nav_interface__rosidl_typesupport_introspection_cpp.so
+[4.234s] [ 74%] Built target mir_nav_interface__rosidl_typesupport_fastrtps_c
+[4.299s] [ 74%] Built target mir_nav_interface__rosidl_typesupport_introspection_cpp
+[4.329s] [ 74%] Built target mir_nav_interface
+[4.356s] [ 76%] Generating Python code for ROS interfaces
+[4.793s] [ 76%] Built target mir_nav_interface__py
+[4.821s] [ 82%] Building C object CMakeFiles/mir_nav_interface__rosidl_generator_py.dir/rosidl_generator_py/mir_nav_interface/msg/_laser_cloud_s.c.o
+[4.822s] [ 82%] Building C object CMakeFiles/mir_nav_interface__rosidl_generator_py.dir/rosidl_generator_py/mir_nav_interface/msg/_laser_cloud_list_s.c.o
+[4.985s] [ 84%] Linking C shared library rosidl_generator_py/mir_nav_interface/libmir_nav_interface__rosidl_generator_py.so
+[5.044s] [ 84%] Built target mir_nav_interface__rosidl_generator_py
+[5.074s] [ 92%] Building C object CMakeFiles/mir_nav_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mir_nav_interface/_mir_nav_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[5.074s] [ 92%] Building C object CMakeFiles/mir_nav_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mir_nav_interface/_mir_nav_interface_s.ep.rosidl_typesupport_c.c.o
+[5.074s] [ 92%] Building C object CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mir_nav_interface/_mir_nav_interface_s.ep.rosidl_typesupport_introspection_c.c.o
+[5.241s] [ 94%] Linking C shared library rosidl_generator_py/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.247s] [ 97%] Linking C shared library rosidl_generator_py/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.249s] [100%] Linking C shared library rosidl_generator_py/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.306s] [100%] Built target mir_nav_interface__rosidl_typesupport_introspection_c__pyext
+[5.306s] [100%] Built target mir_nav_interface__rosidl_typesupport_c__pyext
+[5.311s] [100%] Built target mir_nav_interface__rosidl_typesupport_fastrtps_c__pyext
+[5.326s] Invoked command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface -- -j16 -l16
+[5.339s] Invoking command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface
+[5.351s] -- Install configuration: "Release"
+[5.352s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/ament_index/resource_index/rosidl_interfaces/mir_nav_interface
+[5.352s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface
+[5.352s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg
+[5.352s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/laser_cloud.h
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/laser_cloud_list.h
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/rosidl_generator_c__visibility_control.h
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__type_support.h
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__type_support.h
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__functions.h
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__functions.c
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__functions.c
+[5.353s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__struct.h
+[5.354s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__functions.h
+[5.354s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__struct.h
+[5.354s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/environment/library_path.sh
+[5.354s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/environment/library_path.dsv
+[5.355s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_generator_c.so
+[5.355s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_generator_c.so" to ""
+[5.355s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface
+[5.355s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg
+[5.356s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.356s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail
+[5.356s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__rosidl_typesupport_fastrtps_c.h
+[5.356s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__rosidl_typesupport_fastrtps_c.h
+[5.356s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_fastrtps_c.so
+[5.357s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[5.357s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface
+[5.358s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg
+[5.358s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/laser_cloud_list.hpp
+[5.358s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail
+[5.358s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__traits.hpp
+[5.358s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__struct.hpp
+[5.358s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__traits.hpp
+[5.358s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__builder.hpp
+[5.359s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__type_support.hpp
+[5.359s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__builder.hpp
+[5.360s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__type_support.hpp
+[5.360s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__struct.hpp
+[5.360s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/laser_cloud.hpp
+[5.360s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.361s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface
+[5.361s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg
+[5.361s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail
+[5.361s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/dds_fastrtps
+[5.361s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[5.361s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__rosidl_typesupport_fastrtps_cpp.hpp
+[5.361s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.362s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.363s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.363s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface
+[5.363s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg
+[5.363s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail
+[5.363s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__rosidl_typesupport_introspection_c.h
+[5.363s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__rosidl_typesupport_introspection_c.h
+[5.364s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__type_support.c
+[5.364s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__type_support.c
+[5.364s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.364s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_introspection_c.so
+[5.365s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_introspection_c.so" to ""
+[5.365s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_c.so
+[5.365s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_c.so" to ""
+[5.365s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface
+[5.365s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg
+[5.366s] -- Up-to-date: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail
+[5.366s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__type_support.cpp
+[5.366s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__type_support.cpp
+[5.366s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud_list__rosidl_typesupport_introspection_cpp.hpp
+[5.366s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/include/mir_nav_interface/mir_nav_interface/msg/detail/laser_cloud__rosidl_typesupport_introspection_cpp.hpp
+[5.366s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_introspection_cpp.so
+[5.367s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[5.367s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_cpp.so
+[5.367s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_typesupport_cpp.so" to ""
+[5.367s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/environment/pythonpath.sh
+[5.368s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/environment/pythonpath.dsv
+[5.368s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface-0.0.0-py3.10.egg-info
+[5.368s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface-0.0.0-py3.10.egg-info/top_level.txt
+[5.368s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[5.369s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.369s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.369s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface
+[5.369s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/__init__.py
+[5.369s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/libmir_nav_interface__rosidl_generator_py.so
+[5.370s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.370s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/_mir_nav_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.370s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg
+[5.370s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg/__init__.py
+[5.370s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg/_laser_cloud.py
+[5.371s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg/_laser_cloud_s.c
+[5.371s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg/_laser_cloud_list_s.c
+[5.371s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg/_laser_cloud_list.py
+[5.371s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/_mir_nav_interface_s.ep.rosidl_typesupport_introspection_c.c
+[5.371s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.372s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.372s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/_mir_nav_interface_s.ep.rosidl_typesupport_c.c
+[5.414s] Listing '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface'...
+[5.414s] Compiling '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/__init__.py'...
+[5.414s] Listing '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg'...
+[5.414s] Compiling '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg/__init__.py'...
+[5.414s] Compiling '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg/_laser_cloud.py'...
+[5.414s] Compiling '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/msg/_laser_cloud_list.py'...
+[5.420s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.420s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.420s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.421s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.421s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.422s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/local/lib/python3.10/dist-packages/mir_nav_interface/mir_nav_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.422s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_generator_py.so
+[5.422s] -- Set runtime path of "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/lib/libmir_nav_interface__rosidl_generator_py.so" to ""
+[5.423s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/msg/LaserCloud.idl
+[5.423s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/msg/LaserCloudList.idl
+[5.423s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/msg/LaserCloud.msg
+[5.423s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/msg/LaserCloudList.msg
+[5.423s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/ament_index/resource_index/package_run_dependencies/mir_nav_interface
+[5.424s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/ament_index/resource_index/parent_prefix_path/mir_nav_interface
+[5.424s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/environment/ament_prefix_path.sh
+[5.424s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/environment/ament_prefix_path.dsv
+[5.425s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/environment/path.sh
+[5.425s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/environment/path.dsv
+[5.425s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/local_setup.bash
+[5.425s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/local_setup.sh
+[5.426s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/local_setup.zsh
+[5.426s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/local_setup.dsv
+[5.426s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/package.dsv
+[5.427s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/ament_index/resource_index/packages/mir_nav_interface
+[5.427s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_generator_cExport.cmake
+[5.427s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_generator_cExport-release.cmake
+[5.428s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[5.428s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_typesupport_fastrtps_cExport-release.cmake
+[5.428s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_generator_cppExport.cmake
+[5.428s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.429s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[5.429s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface__rosidl_typesupport_introspection_cExport.cmake
+[5.429s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface__rosidl_typesupport_introspection_cExport-release.cmake
+[5.429s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface__rosidl_typesupport_cExport.cmake
+[5.430s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface__rosidl_typesupport_cExport-release.cmake
+[5.430s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface__rosidl_typesupport_introspection_cppExport.cmake
+[5.430s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface__rosidl_typesupport_introspection_cppExport-release.cmake
+[5.431s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface__rosidl_typesupport_cppExport.cmake
+[5.431s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface__rosidl_typesupport_cppExport-release.cmake
+[5.431s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_generator_pyExport.cmake
+[5.432s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/export_mir_nav_interface__rosidl_generator_pyExport-release.cmake
+[5.432s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/rosidl_cmake-extras.cmake
+[5.432s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.432s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.432s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.433s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.433s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.433s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.433s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interfaceConfig.cmake
+[5.434s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interfaceConfig-version.cmake
+[5.434s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/mir_nav_interface/share/mir_nav_interface/package.xml
+[5.437s] Invoked command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface

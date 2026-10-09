@@ -1,0 +1,8 @@
+prefix=/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface
+
+Name: mir_nav_interface
+Description: Description of mir_nav_interface
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: 
+Requires: geometry_msgs message_runtime sensor_msgs std_msgs

@@ -28,6 +28,8 @@ _colcon_prefix_chain_powershell_source_script "/common_tutorials/install\local_s
 _colcon_prefix_chain_powershell_source_script "/control_msgs_ros1/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/control_msgs_ros2/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/custom_action/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

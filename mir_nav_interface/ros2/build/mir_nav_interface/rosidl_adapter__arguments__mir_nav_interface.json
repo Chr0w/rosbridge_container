@@ -1,0 +1,7 @@
+{
+  "package_name": "mir_nav_interface",
+  "non_idl_tuples": [
+    "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/src/mir_nav_interface:msg/LaserCloud.msg",
+    "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/src/mir_nav_interface:msg/LaserCloudList.msg"
+  ]
+}

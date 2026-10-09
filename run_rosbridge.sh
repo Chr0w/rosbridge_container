@@ -23,5 +23,5 @@ docker run -it --rm \
   --name rosbridge \
   --entrypoint /bin/bash \
   chrow/rosbridge:latest \
-  -ic "ros2 run ros1_bridge dynamic_bridge --bridge-all-1to2-topics --bridge-all-2to1-topics"
+  -ic "source /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/setup.bash && source /root/ros-humble-ros1-bridge/mir_nav_interface/ros2/install/setup.bash && source /root/ros-humble-ros1-bridge/install/local_setup.bash && ros2 run ros1_bridge dynamic_bridge --bridge-all-1to2-topics --bridge-all-2to1-topics"
 

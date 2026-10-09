@@ -1,0 +1,4 @@
+msg/LaserCloud.idl
+msg/LaserCloud.msg
+msg/LaserCloudList.idl
+msg/LaserCloudList.msg

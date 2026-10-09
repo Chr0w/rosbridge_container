@@ -1,0 +1,101 @@
+[0.014s] Invoking command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface': /usr/bin/cmake /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/src/mir_nav_interface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.392s] -- Detecting CXX compile features
+[0.392s] -- Detecting CXX compile features - done
+[0.401s] -- Using CATKIN_DEVEL_PREFIX: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface/devel
+[0.401s] -- Using CMAKE_PREFIX_PATH: 
+[0.429s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3") 
+[0.429s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.429s] -- Using Debian Python package layout
+[0.429s] -- Using empy: /usr/bin/empy
+[0.582s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.582s] -- Call enable_testing()
+[0.586s] -- Using CATKIN_TEST_RESULTS_DIR: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface/test_results
+[0.777s] -- GTest is available
+[0.777s] -- GMock is not available. Please install libgmock-dev to enable tests involving GMock.
+[0.778s] -- nosetests not found, Python tests can not be run (try installing package 'python3-nose')
+[0.787s] -- Found Threads: TRUE  
+[0.857s] -- catkin 0.8.10
+[0.857s] -- BUILD_SHARED_LIBS is on
+[1.140s] -- Using these message generators: gencpp;genlisp;genpy
+[1.350s] -- mir_nav_interface: 2 messages, 0 services
+[1.560s] -- Configuring done
+[1.582s] -- Generating done
+[1.595s] -- Build files have been written to: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface
+[1.601s] Invoked command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface' returned '0': /usr/bin/cmake /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/src/mir_nav_interface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface
+[1.603s] Invoking command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface': /usr/bin/cmake --build /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface -- -j16 -l16
+[1.677s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.679s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.679s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.681s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.684s] [  0%] Built target std_msgs_generate_messages_py
+[1.684s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.686s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.686s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.691s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.739s] [  0%] Built target _mir_nav_interface_generate_messages_check_deps_LaserCloudList
+[1.739s] [  0%] Built target _mir_nav_interface_generate_messages_check_deps_LaserCloud
+[1.773s] [ 14%] Generating Lisp code from mir_nav_interface/LaserCloud.msg
+[1.773s] [ 42%] Generating C++ code from mir_nav_interface/LaserCloud.msg
+[1.781s] [ 42%] Generating Python from MSG mir_nav_interface/LaserCloud
+[1.782s] [ 57%] Generating Lisp code from mir_nav_interface/LaserCloudList.msg
+[1.785s] [ 71%] Generating Python from MSG mir_nav_interface/LaserCloudList
+[1.789s] [ 85%] Generating C++ code from mir_nav_interface/LaserCloudList.msg
+[1.885s] [ 85%] Built target mir_nav_interface_generate_messages_lisp
+[1.963s] [ 85%] Built target mir_nav_interface_generate_messages_cpp
+[2.002s] [100%] Generating Python msg __init__.py for mir_nav_interface
+[2.171s] [100%] Built target mir_nav_interface_generate_messages_py
+[2.198s] [100%] Built target mir_nav_interface_generate_messages
+[2.213s] Invoked command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface' returned '0': /usr/bin/cmake --build /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface -- -j16 -l16
+[2.214s] Invoking command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface': /usr/bin/cmake --build /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface --target tests -- -j16 -l16
+[2.289s] Built target tests
+[2.302s] Invoked command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface' returned '0': /usr/bin/cmake --build /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface --target tests -- -j16 -l16
+[2.317s] Invoking command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface': /usr/bin/cmake --install /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface
+[2.326s] -- Install configuration: "Release"
+[2.327s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/mir_nav_interface/msg/LaserCloud.msg
+[2.327s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/mir_nav_interface/msg/LaserCloudList.msg
+[2.328s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface-msg-paths.cmake
+[2.328s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/include/mir_nav_interface
+[2.328s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/include/mir_nav_interface/LaserCloud.h
+[2.328s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/include/mir_nav_interface/LaserCloudList.h
+[2.328s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/common-lisp/ros/mir_nav_interface
+[2.329s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/common-lisp/ros/mir_nav_interface/msg
+[2.329s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/common-lisp/ros/mir_nav_interface/msg/_package_LaserCloud.lisp
+[2.329s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/common-lisp/ros/mir_nav_interface/msg/LaserCloud.lisp
+[2.329s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/common-lisp/ros/mir_nav_interface/msg/_package_LaserCloudList.lisp
+[2.329s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/common-lisp/ros/mir_nav_interface/msg/_package.lisp
+[2.329s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/common-lisp/ros/mir_nav_interface/msg/mir_nav_interface-msg.asd
+[2.329s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/common-lisp/ros/mir_nav_interface/msg/LaserCloudList.lisp
+[2.373s] Listing '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface/devel/lib/python3/dist-packages/mir_nav_interface'...
+[2.373s] Compiling '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface/devel/lib/python3/dist-packages/mir_nav_interface/__init__.py'...
+[2.373s] Listing '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface/devel/lib/python3/dist-packages/mir_nav_interface/msg'...
+[2.373s] Compiling '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface/devel/lib/python3/dist-packages/mir_nav_interface/msg/_LaserCloud.py'...
+[2.373s] Compiling '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface/devel/lib/python3/dist-packages/mir_nav_interface/msg/_LaserCloudList.py'...
+[2.374s] Compiling '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface/devel/lib/python3/dist-packages/mir_nav_interface/msg/__init__.py'...
+[2.379s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface
+[2.380s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/__init__.py
+[2.380s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/__pycache__
+[2.380s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/__pycache__/__init__.cpython-310.pyc
+[2.380s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/msg
+[2.381s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/msg/__init__.py
+[2.381s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/msg/__pycache__
+[2.381s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/msg/__pycache__/__init__.cpython-310.pyc
+[2.381s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/msg/__pycache__/_LaserCloud.cpython-310.pyc
+[2.381s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/msg/__pycache__/_LaserCloudList.cpython-310.pyc
+[2.381s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/msg/_LaserCloudList.py
+[2.381s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/python3/dist-packages/mir_nav_interface/msg/_LaserCloud.py
+[2.381s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/lib/pkgconfig/mir_nav_interface.pc
+[2.382s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interface-msg-extras.cmake
+[2.382s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interfaceConfig.cmake
+[2.382s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/mir_nav_interface/cmake/mir_nav_interfaceConfig-version.cmake
+[2.382s] -- Installing: /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/install/mir_nav_interface/share/mir_nav_interface/package.xml
+[2.385s] Invoked command in '/root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface' returned '0': /usr/bin/cmake --install /root/ros-humble-ros1-bridge/mir_nav_interface/ros1/build/mir_nav_interface

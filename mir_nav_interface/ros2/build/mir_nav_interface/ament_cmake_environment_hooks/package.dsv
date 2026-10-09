@@ -1,0 +1,4 @@
+source;share/mir_nav_interface/local_setup.bash
+source;share/mir_nav_interface/local_setup.dsv
+source;share/mir_nav_interface/local_setup.sh
+source;share/mir_nav_interface/local_setup.zsh

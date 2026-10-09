@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mir_nav_interface__py",
+		"source" : "/root/ros-humble-ros1-bridge/mir_nav_interface/ros2/build/mir_nav_interface/mir_nav_interface__py"
+	}
+}

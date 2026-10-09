@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud__type_support.c.o"
+  "CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud__type_support.c.o.d"
+  "CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud_list__type_support.c.o"
+  "CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud_list__type_support.c.o.d"
+  "libmir_nav_interface__rosidl_typesupport_introspection_c.pdb"
+  "libmir_nav_interface__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud__type_support.c"
+  "rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud_list__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/mir_nav_interface/msg/detail/laser_cloud_list__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/mir_nav_interface__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
